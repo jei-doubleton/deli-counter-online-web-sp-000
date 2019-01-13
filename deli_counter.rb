@@ -5,7 +5,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     "The line is currently empty."
   else katz_deli.each do |number|
-    "Welcom, #{name}. You are number #{number} in line."
+    "There are #{number} in line."
   end
   end
 end
